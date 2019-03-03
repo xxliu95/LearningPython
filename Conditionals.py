@@ -14,7 +14,7 @@ user = 'Admin'
 logged_in = False
 
 if user == 'Admin' and logged_in:
-# if user == 'Admin' and logged_in:
+# if user == 'Admin' or logged_in:
     print('Admin Page')
 else:
     print('Bad Creds')
